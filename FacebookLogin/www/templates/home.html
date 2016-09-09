@@ -1,0 +1,10 @@
+<ion-view style="" class="" id="home" title="FacebookHome">
+    <ion-content class="has-header" scroll="false" padding="true">
+        <img src="{{ user.picture }}" />
+        <p>{{ user.userID }}</p>
+        <p>{{ user.name }}</p>
+        <p>{{ user.email }}</p>
+        <p>{{ user.authResponse }}</p>
+        <a class="button button-assertive button-block button-outline" ng-click="showLogOutMenu()">Log Out</a>
+    </ion-content>
+</ion-view>
