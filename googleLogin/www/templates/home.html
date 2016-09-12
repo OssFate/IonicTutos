@@ -1,0 +1,11 @@
+<ion-view style="" class="" id="home" title="Home Google">
+    <ion-content class="has-header" padding="true">
+        <img src="{{ user.picture }}" />
+        <p>{{ user.name }}</p>
+        <p>{{ user.email }}</p>
+        <p>{{ user.userID }}</p>
+        <p>{{ user.accessToken }}</p>
+        <p>{{ user.idToken }}</p>
+        <a class="button button-assertive button-block button-outline" ng-click="showLogOutMenu()">Log Out</a>
+    </ion-content>
+</ion-view>
